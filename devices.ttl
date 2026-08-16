@@ -287,7 +287,9 @@ _:1010music-lemondrop device:inputs 1 .
 _:1010music-lemondrop device:outputs 1 .
 _:1010music-lemondrop device:typeA true .
 _:1010music-lemondrop device:typeB true .
-_:1010music-lemondrop device:details "MIDI IN autodetects type A or B; MIDI OUT is only type B (OUT is only MIDI THRU as of v1.1.2)" .
+_:1010music-lemondrop device:swappable true .
+_:1010music-lemondrop device:notes "Granular synthesizer" .
+_:1010music-lemondrop device:details "MIDI IN autodetects type A or B; MIDI OUT is configurable as type A or B as of v1.2.28 (OUT is only MIDI THRU)" .
 _:1010music-lemondrop device:uri "https://1010music.com/product/lemondrop" .
 
 # ADDAC System ADDAC221 (I/O; Polarity Korg)
